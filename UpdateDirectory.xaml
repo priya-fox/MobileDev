@@ -4,17 +4,4 @@
              x:Class="mauiDbwk13.Views.UpdateDirectory"
              Title="UpdateDirectory">
 
-    <StackLayout>
-        <Entry x:Name="nameEntry" Placeholder="Name" />
-        <Entry x:Name="phoneEntry" Placeholder="Phone" />
-        <Entry x:Name="departmentEntry" Placeholder="Department" />
-        <Entry x:Name="streetEntry" Placeholder="Street Address" />
-        <Entry x:Name="cityEntry" Placeholder="City" />
-        <Entry x:Name="stateEntry" Placeholder="State" />
-        <Entry x:Name="zipEntry" Placeholder="Zip Code" />
-        <Entry x:Name="countryEntry" Placeholder="Country" />
-
-        <Button Text="Add Staff" Clicked="AddStaff_Clicked" />
-        <Button Text="Update Staff" Clicked="UpdateStaff_Clicked" />
-        <Button Text="Delete Staff" Clicked="DeleteStaff_Clicked" />
-    </StackLayout> 
+    
