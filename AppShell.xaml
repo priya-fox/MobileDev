@@ -17,16 +17,16 @@
 
     <TabBar>
         <ShellContent Title="Home"
-                      ContentTemplate="{DataTemplate local:MainPage}"
-                      Route="NewPage1" />
+                      ContentTemplate="{DataTemplate local:MainPag}"
+                      Route="MainPage" />
 
         <ShellContent Title="Staff Directory"
-                      ContentTemplate="{DataTemplate views:NewPage1}"
+                      ContentTemplate="{DataTemplate views:UpdateDirectory}"
                       Route="staffListView" />
 
         <ShellContent Title="Update Staff Details"
-                      ContentTemplate="{DataTemplate views:UpdateDirectory}"
-                      Route="MAUI.Mainpage"/>
+                      ContentTemplate="{DataTemplate local:MainPage}"
+                      Route="MainPage"/>
     </TabBar>
 
 </Shell>
